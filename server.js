@@ -20,11 +20,6 @@ const app = express();
 
 app.use(bodyParser.json());
 
-// Use production build
-if (process.env.NODE_ENV === "production") {
-    app.use(express.static("../facerecognitionbrain/build/index.html"
-}
-
 app.get('/', (req, res) => { res.send(`It's working!`) });
 app.post('/signin', signin.handleSignin(bcrypt, db));
 app.post('/register', (req, res) => { register.handleRegister(req, res, db, bcrypt) });
