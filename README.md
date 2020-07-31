@@ -3,6 +3,7 @@ Back-end for a face recognition app using the [Clarifai AI](https://www.clarifai
 
 ## Dependencies:
 1. express
+1. Clarifai
 1. knex
 1. bcrypt
 1. postgres
