@@ -1,5 +1,14 @@
-Back-end for a face recogntion app using the Clarifai AI.
+## What this is:
+Back-end for a face recogntion app using the [Clarifai AI](https://www.clarifai.com/). This back-end is using a Postgres database, Node to run the server, and a simple API schema to make calls to Clarifai, and access data from the database, and send/receive information to the front-end.
 
-This back-end will not work locally, there is no API key stored.
+## Dependencies:
+1. react
+2. express
+3. knex
+4. bcrypt
+5. postgres
 
-To see the app go to: https://facerecognitionfrontend.herokuapp.com/
+## To run locally,
+This back-end will not work locally, there is no API key necessary to access teh Clarifai API stored.
+
+To see the app go to: [Heroku Deployment](https://facerecognitionfrontend.herokuapp.com/)
