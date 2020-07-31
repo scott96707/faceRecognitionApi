@@ -8,7 +8,7 @@ Back-end for a face recognition app using the [Clarifai AI](https://www.clarifai
 1. bcrypt
 1. postgres
 
-## To run locally,
+## To run locally:
 This back-end will not work locally, there is no API key necessary to access teh Clarifai API stored.
 
 To see the app go to: [Heroku Deployment](https://facerecognitionfrontend.herokuapp.com/)
